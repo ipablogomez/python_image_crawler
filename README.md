@@ -30,7 +30,7 @@ The results will be saved into a results.json file in the following format:
 The crawling activity will be logged to a file named crawler.log.
 
 ## Example
-To crawl the https://en.wikipedia.org/wiki/Web_crawler website up to a depth of 1 and save the results into a file named example_results.json, use the following command:
+To crawl the https://en.wikipedia.org/wiki/Web_crawler website up to a depth of 0 and save the results into a file named example_results.json, use the following command:
 
 ```
 python crawler.py https://en.wikipedia.org/wiki/Web_crawler 0
